@@ -1,0 +1,40 @@
+body {
+    background-image: url(bg.png);
+    background-repeat: repeat;
+}
+
+#title {
+    text-align: center;
+    color: #555;
+}
+
+img {
+    width: 65px;
+}
+
+a {
+    padding-left: 15px;
+    font-size: 30px;
+    color: #555;
+}
+
+#link1, #link2, #link3 {
+    cursor: pointer;
+}
+
+#links {
+    background-color: #ededed;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 20px;
+    background-image: url(linksbg.png);
+    box-shadow: 0px 5px 5px #888;
+}
+
+* {
+    text-align: center;
+    vertical-align: middle;
+    font-family: helvetica;
+    font-weight: 100;
+}
