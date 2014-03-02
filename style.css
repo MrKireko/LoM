@@ -18,14 +18,14 @@ a {
     color: #555;
 }
 
-#link1, #link2, #link3 {
+#link1, #link2, #link3, #link4 {
     cursor: pointer;
 }
 
 #links {
     background-color: #ededed;
     width: 400px;
-    height: 400px;
+    height: 420px;
     display: inline-block;
     border-radius: 20px;
     background-image: url(linksbg.png);
