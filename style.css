@@ -18,17 +18,50 @@ a {
     color: #555;
 }
 
-#link1, #link2, #link3, #link4 {
+p {
+    padding-left: 15px;
+    font-size: 35px;
+    color: #555;
+}
+
+.link {
     cursor: pointer;
 }
 
-#links {
+#youtube {
+    margin-left: 30px;
+}
+
+#twitter span p {
+    color: rgb(0, 220, 255);
+}
+
+#youtube span p span:nth-child(2) {
+    color: red;
+}
+
+#youtube span p span:nth-child(1) {
+    color: black;
+}
+
+#twitter, #youtube {
+    margin-top: 20px;
     background-color: #ededed;
     width: 400px;
     height: 420px;
     display: inline-block;
     border-radius: 20px;
     background-image: url(linksbg.png);
+    box-shadow: 0px 5px 5px #888;
+}
+
+#links {
+    background-color: #ededed;
+    width: 900px;
+    height: 480px;
+    display: inline-block;
+    border-radius: 20px;
+    background-image: url(bg2.png);
     box-shadow: 0px 5px 5px #888;
 }
 

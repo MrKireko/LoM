@@ -12,4 +12,10 @@ $(document).ready(function() {
     $("#link4").click(function() {
         document.location = "http://www.youtube.com/OfficialLoM1";
     });
+    $("#link5").click(function() {
+        document.location = "http://www.youtube.com/MrKireko";
+    });
+    $("#link6").click(function() {
+        document.location = "http://www.youtube.com/ChickenKingsLand";
+    });
 });
